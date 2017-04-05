@@ -37,16 +37,16 @@ function startGame(){
  		$('#goat').css('display','block');
  		$('#wolf').css('display','block');
  		$('#cabbage').css('display','block');
-    $('#goat_boat').css('left','950px');
- 		$('#wolf_boat').css('left','950px');
- 		$('#cabbage_boat').css('left','950px');
+    $('#goat_boat').css('left','900px');
+ 		$('#wolf_boat').css('left','900px');
+ 		$('#cabbage_boat').css('left','900px');
  		$('#goat_boat').css('display','none');
  		$('#wolf_boat').css('display','none');
  		$('#cabbage_boat').css('display','none');
  		$('#goat_delivered').css('display','none');
  		$('#wolf_delivered').css('display','none');
  		$('#cabbage_delivered').css('display','none');
- 		$('#my_image').css('left','950px');
+ 		$('#my_image').css('left','900px');
     var startPosition = $("#my_image").offset();
     console.log(startPosition);
 
